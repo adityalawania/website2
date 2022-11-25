@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin-top: -15px;
+            margin-left: 0px;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        #nav-container {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            height: 14vh;
+            width: 100vw;
+            
+        }
+        #nav-container img{
+            position: relative;
+            left: 20vw;
+            /* top: 30px; */
+            width: 40px;
+            height: 40px;
+            margin-top: 40px;
+            
+        }
+
+        #navbar {
+
+            display: flex;
+            list-style: none;
+            /* align-items: center; */
+            position: relative;
+            left: 48vw;
+        }
+
+        .nav-items {
+            margin-top: -55px;
+            margin-left: 80px;
+            font-size: 18px;
+            font-weight:800;
+        }
+        .nav-items:hover{
+            color: rgb(1, 175, 1);
+            cursor: pointer;
+        }
+
+        #first-page {
+            background-image: linear-gradient(to right, rgb(255, 39, 255), rgb(155, 18, 155));
+            height: 86vh;
+            position: relative;
+            bottom: 8.5vh;
+            display: flex;
+            position: relative;
+            top: 2px;
+            width: 100vw;
+        }
+        #first-page img{
+            height: 80vh;
+            width: 20vw;
+            position: relative;
+            left: 20vw;
+            top: 30px;
+        }
+        #app-name{
+            margin-left: 23vw;
+            position: relative;
+            bottom: 10px;
+            font-size:29px;
+        }
+
+        #f-container {
+            width: 40vw;
+            position: relative;
+            left: 70vh;
+            color: white;
+            top: 20vh;
+
+        }
+
+        #f-container p {
+            font-size: 60px;
+            font-weight: 600;
+        }
+
+        #f-container button {
+            background-color: white;
+            font-weight: bolder;
+            border-radius: 18px;
+            height: 40px;
+            width: 10vw;
+        
+        }
+        #f-container button:hover{
+            color: white;
+            background-color: black;
+        }
+        #card-container{
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .card-container h2{
+            font-weight: bolder;
+        }
+        #second-page{
+            margin-top: 15vh;
+        }
+        #second-page h1{
+            margin-top: 30px;
+            margin-left: 42vw;
+            font-size: 40px;
+            font-family: serif;
+        }
+        .why-spotify{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 20vw;
+        }
+        #third-page{
+           height: 30vh;
+           display: flex;
+           flex-direction: column;
+margin-top:20vh;
+           background-image: linear-gradient(to bottom, rgb(255, 39, 255), rgb(117, 7, 117));
+        }
+        #third-page p{
+            margin-top: 50px;
+            font-weight: 900;
+     margin-left: 98vh;
+            font-size: 40px;
+            color: white;
+            
+        }
+      #third-1{
+        position: relative;
+        bottom: 12vh;
+        right: 8vw;
+      }
+      #fourth-page{
+        height: 50vh;
+        margin-top: 10vh;
+      }
+      #fourth-page p{
+        margin-left: 43vw;
+        font-size: 20px;
+      }
+      #fourth-page hr{
+        width:20vw;
+        position: relative;
+        left: 30px;
+      }
+      #fifth-page{
+        background-image: linear-gradient(to bottom, rgb(255, 39, 255), rgb(117, 7, 117));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+      }
+      #fifth-page button{
+        background-color: white;
+            font-weight: bolder;
+            border-radius: 18px;
+            height: 40px;
+            width: 10vw;
+          
+      }
+      #fifth-page button:hover{
+        color: white;
+        background-color: black;
+      }
+      #fifth-page p{
+        
+        color: white;
+        font-weight: 900;
+        font-size: 40px;
+      }
+    </style>
+</head>
+
+<body>
+    <div id="nav-container">
+        <span>
+            <img src="/img/logoSpotify.jpeg" alt="" >
+            <span id="app-name">Spotify</span>
+        </span>
+        <ol id="navbar">
+            <li class="nav-items">Premium</li>
+            <li class="nav-items">Support</li>
+            <li class="nav-items">Download</li>
+            <li class="nav-items">Sign Up</li>
+            <li class="nav-items">Log in</li>
+        </ol>
+    </div>
+    <div id="first-page">
+        <div>
+            <img src="/img/mobile.jpeg">
+        </div>
+        <div id="f-container">
+            <p>
+                Play millions of songs and podcasts, for free.
+            </p>
+            <button>Get Spotify Free</button>
+        </div>
+    </div>
+
+    <div id="second-page">
+        <h1>Why Spotify?</h1>
+        <div id="card-container">
+            <div class="why-spotify">
+                <img src="/img/option2.jpeg">
+                <h2>Play your favorites.</h2>
+                <p>Listen to songs you love, and discover new music and podcasts.</p>
+            </div>
+            <div class="why-spotify">
+                <img src="/img/options1.jpeg">
+                <h2>Playlists made easy.</h2>
+                <p>We'll help you make playlist. Or enjoy playlists made by music experts</p>
+            </div>
+            <div class="why-spotify">
+                <img src="/img/options1.jpeg">
+                <h2>Make it Yours</h2>
+                <p>Tell us what you like,and we'll recommend music for you.</p>
+            </div>
+            <div class="why-spotify">
+                <img src="/img/option3.jpeg">
+                <h2>Save mobile data.</h2>
+                <p>To use less data when you play music on Data Saver in Settings.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="third-page">
+        <p >It's Free </p>
+        <p id="third-1">No credit card required.</p>
+    </div>
+
+
+    <div id="fourth-page">
+            <p>How do i create playlist? </p>
+            <hr>
+            <p>How do i active data saver mode?</p>
+            <hr>
+            <p>Is it only possible to shuffle play music?</p>
+            <hr>
+            <p>Where can i find Podcasts?</p>
+           
+    </div>
+
+    <div id="fifth-page">
+        <p>Ready? Let's play.</p>
+        <button>Get Spotify Free</button>
+    </div>
+</body>
+
+</html>
